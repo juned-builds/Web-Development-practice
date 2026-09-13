@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio-Juned</title>
+    </head>
+    <body>
+        <header>
+            <h1>Juned Ansari</h1>
+
+            <!--My-Links : navigation manu -->
+            <h2>My Links</h2>
+            <nav>
+                <a href="about.html">About Me</a>
+                <a href="Projects.html">My Projects</a>
+                <a href="contect.html">Contect Me</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- About Section -->
+            <section>
+                <h2>About Me</h2>
+                <p>My name is Juned Ansari. I am 3rd year Engineering student at
+                    L.D. College of Engineering with IT Department.
+                    My goal is to become a Full-stack Software Developer with AI
+                    integration.
+                </p>
+            </section>
+
+            <!-- Skills Section -->
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>MySQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+
+            <!-- Project Section -->
+            <section>
+                <h2>My Projects</h2>
+
+                <div>
+                    <article>
+                        <h3>TransformAI</h3>
+                        <p>An Ai which can transform a large source into many
+                            small deliverables like
+                            <span> summary, LinkedIn post, tweeter Post,
+                                presentation, advisory..</span>
+                            user can choose tone style and target audience
+                            according to them.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h3>GlobeTotter</h3>
+                        <p>a travel management app which can track everything like
+                            budget, destination, day wise cost...</p>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section>
+                <h2>Education</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree / Course</th>
+                            <th>Institution / Board</th>
+                            <th>Year of Passing</th>
+                            <th>Percentage / CGPA</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Bachelor of Engineering (B.E.)</td>
+                            <td>Gujrat Technological University</td>
+                            <td>2028</td>
+                            <td>8.5 CGPA</td>
+                        </tr>
+                        <tr>
+                            <td>Higher Secondary (Class 12th)</td>
+                            <td>Gujarat Secondary Education Board (GSEB)</td>
+                            <td>2024</td>
+                            <td>83%</td>
+                        </tr>
+                        <tr>
+                            <td>Secondary (Class 10th)</td>
+                            <td>Gujarat Secondary Education Board (GSEB)</td>
+                            <td>2022</td>
+                            <td>88%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Contact section -->
+            <section>
+                <h2>Contact</h2>
+                <form action>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name"
+                        placeholder="Enter your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"
+                        placeholder="xyz@example.com" required>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"
+                        placeholder="Enter your Messege" required></textarea>
+
+                    <p>Country</p>
+                    <select name="country" id="country">
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                    </select>
+
+                    <p>Gender</p>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female"
+                        value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+
+                    <p>Interests</p>
+                    <input type="checkbox" name="interests" id="development"
+                        value="development">
+                    <label for="development">Development</label>
+                    <input type="checkbox" name="interests" id="aiml"
+                        value="AI-Ml">
+                    <label for="aiml">Ai-ML</label>
+                    <input type="checkbox" name="interests" id="datascience"
+                        value="data-science">
+                    <label for="datascience">Data-Science</label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>© 2026 Juned Ansari</p>
+        </footer>
+    </body>
+</html>
