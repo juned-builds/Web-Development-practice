@@ -127,6 +127,59 @@
                         width="300"></a>
             </section>
 
+            <hr>
+
+            <!-- contect me section -->
+            <section>
+                <h2>Contact Me</h2>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="18" max="60">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+
+                    <label for="country">Country</label>
+                    <!-- select -->
+                    <select name="country" id="country">
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">Canada</option>
+                        <option value="china">China</option>
+                    </select>
+
+                    <p>Gender</p>
+                    <!-- radio -->
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+
+                    <p>Interests</p>
+                    <!-- checkbox -->
+                    <input type="checkbox" name="interests" id="webDevelopment" value="webDevelopment">
+                    <label for="webDevelopment">Web Development</label>
+
+                    <input type="checkbox" name="interests" id="ai" value="ai">
+                    <label for="ai">AI</label>
+
+                    <input type="checkbox" name="interests" id="programming" value="programming">
+                    <label for="programming">Programming</label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
         </main>
 
         <footer>
